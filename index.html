@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sage Design Issue Collector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="all" href="styles/minireset.css" />
+  <link rel="stylesheet" media="all" href="styles/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.png">
+  <script type="text/javascript"
+    src="https://sagebionetworks.jira.com/s/d41d8cd98f00b204e9800998ecf8427e-T/-vg1gsr/b/7/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=a97e3e7c">
+    </script>
+
+  <script type="text/javascript">
+    window.ATL_JQ_PAGE_PROPS = {
+      "triggerFunction": showCollectorDialog => {
+        document.querySelector("#openIssueCollectorTrigger").addEventListener("click", e => {
+          e.preventDefault();
+          showCollectorDialog();
+        });
+      }
+    };
+  </script>
+
+</head>
+
+<body>
+  <header>
+  </header>
+  <main>
+    <div class="content with-shadow">
+      <img id="logo" src="images/sage-logo.svg" />
+      <h1>Design Request Issue Collector</h1>
+      <p>This form gives you a way to file a design request ticket. Once we get it, we'll reply to you with questions,
+        and then figure out the best way to proceed. Remember to tell us <strong>WHO</strong> the feature is for,
+        <strong>WHAT</strong> problem it's meant to solve, and how <strong>URGENT</strong> it is (i.e. when does it need
+        to be done?)
+      </p>
+      <button class="primary" id="openIssueCollectorTrigger">Open Issue Collector</button>
+    </div>
+  </main>
+</body>
+
+</html>

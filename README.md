@@ -1,0 +1,1 @@
+Static page that hosts a Jira issue collector for Design requests.

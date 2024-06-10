@@ -1,0 +1,91 @@
+:root {
+  --sapphire-500: #395979;
+  --gray-100: #FBFBFC;
+  --gray-900: #353A3F;
+  --white: #fff;
+}
+
+html,
+body {
+  background-color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--gray-100);
+  color: var(--gray-900);
+  display: flex;
+  font-size: 1.6rem;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.8rem;
+  margin: 1.2rem 0 1.6rem;
+}
+
+p {
+  margin: .4rem 0 1.2rem;
+  line-height: 1.4;
+}
+
+header {
+  height: 24rem;
+  background: #1972B2 url(/images/diagonal-lines-bg.svg);
+  background-position: 0%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  background-color: var(--white);
+  border-radius: .3rem;
+  color: var(--gray-900);
+  padding: 4rem;
+  max-width: 96rem;
+  margin: -12rem 5vw auto
+}
+
+.with-shadow {
+  box-shadow: 0rem .1rem .4rem rgba(0, 0, 0, .05),
+    0rem .4rem .4rem rgba(0, 0, 0, .05),
+    0rem 1.6rem 1.6rem rgba(0, 0, 0, .05);
+}
+
+button {
+  align-items: center;
+  border: 0;
+  color: var(--Type-White, #FFF);
+  color: var(--white);
+  display: inline-flex;
+  font-family: "DM Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  height: 3.6rem;
+  justify-content: center;
+  line-height: 2rem;
+  padding: .6rem 1.6rem;
+  margin: .8rem 0 1.2rem;
+}
+
+button:hover {
+  cursor: pointer
+}
+
+button.primary {
+  background-color: var(--sapphire-500);
+}
+
+#logo {
+  margin-bottom: .6rem;
+}
